@@ -1,0 +1,79 @@
+
+
+REACT ---- Js library (front end development)
+---------------------------------------------
+
+Basic commands
+--------------
+
+- To create project : npx create-react-app projectname
+- To run project : npm start
+- To install react material ui :  npm install @mui/material @emotion/react @emotion/styled
+- To buld a project  :   npm run build
+- To install react bootstrap  :  npm install react-bootstrap bootstrap
+
+Basic concepts
+--------------
+
+- Single page applications
+- Reusable component based approach
+= JSX : JavaScript Xml  (combination of js and html code)
+- Fast
+
+front end difference
+
+concept                   Angular                     REACT                      vue
+-------------------------------------------------------------------------------------------
+
+1.Developer       |   Framework---google     |   Library---meta         |   Framework---open source
+                
+2.Language        |   typescript             |   JavaScript             |   JavaScript
+
+3.DOM             |   Real DOM               |   Virtual DOM            |   Virtual DOM
+
+4.Data sharing    |   Two way data binding   |   One way data binding   |   Two way data binding  
+                  |                          |     (parent to child)    |
+
+React is a component base applications
+
+components:---create a js file having a name starting with capital letter
+
+  Two type of components
+
+  - Class based components-------also known as stateful components (by default stateful component functions available)
+
+  - Function based -------stateless components
+
+  react hook-----hook is a predefined function and name start with "use" key word
+
+        hook used to create state
+
+      use predefined-function()
+
+  state : state is used to store values (also state has an advantage to transfer values) we can share state to child components
+
+   use state()----creating state
+
+   state creating js field
+
+   state creation syntax
+   ---------------------
+
+     const[ statename , statevalueupdationfunction ]=usestate()
+
+          --initial value represent in hook argument in single quotes
+
+
+props : it is used to share data between parent and child 
+
+
+conditional rendering :
+
+
+
+ icons---react feather icons in google
+
+ react router dom------npm i react-router-dom
+
+
+  
